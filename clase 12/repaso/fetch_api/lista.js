@@ -12,6 +12,6 @@ async function obtener_usuario(){
 
         items.push(item)
     });
-    document.getElementById("lista_usuarios").innerHTML= items.join("")
+    document.getElementById("lista_usuario").innerHTML= items.join("")
 }
 obtener_usuario()
